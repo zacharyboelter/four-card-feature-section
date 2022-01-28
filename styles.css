@@ -39,21 +39,21 @@ top wrapper
 }
 
 .light-header {
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 200;
     color: var(--very-dark-blue);
     margin-top: 50px;
 }
 
 .dark-header {
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 700;
     color: var(--very-dark-blue);
     margin-bottom: 20px;
 }
 
 .top-copy {
-    font-size: 10;
+    font-size: 15px;
     font-weight: 400;
     color: var(--grayish-blue);
     width: 530px;
@@ -68,14 +68,97 @@ Bottom wrapper
 
 .bottom-half-wrapper {
     display: flex;
+    margin: 50px;
+    gap: 20px;
 }
 
 
+.card {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 10px;
+    height: 300px;
+    width: 400px;
+    border-radius: 0 0 10px 10px;
+}
+
+#bottom-container {
+    flex: 1;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Supervisor Card
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#cyan-card {
+    margin-top: 150px;
+}
+.cyan-color {
+    height: 8px;
+    background-color: var(--cyan);
+    border-radius: 10px 10px 0 0;
+}
 
 
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Team Builder Card 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 
+.red-color {
+    height: 8px;
+    background-color: var(--red);
+    border-radius: 10px 10px 0 0;
+}
+.card-title {
+    padding: 25px;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--very-dark-blue);
 
+}
+
+.card-copy {
+    padding-left: 25px;
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--grayish-blue);
+}
+
+.img {
+    padding-top: 80px;
+    padding-left: 300px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Karma Card
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#orange-card {
+    margin-top: 30px;
+}
+.orange-color {
+    height: 8px;
+    background-color: var(--orange);
+    border-radius: 10px 10px 0 0;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Calculator Card
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#blue-card {
+    margin-top: 150px;
+}
+.blue-color {
+    height: 8px;
+    background-color: var(--blue);
+    border-radius: 10px 10px 0 0;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Attribution Section
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .attribution { 
     font-size: 11px; text-align: center; 
 }
