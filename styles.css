@@ -41,7 +41,7 @@ top wrapper
 .light-header {
     font-size: 28px;
     font-weight: 200;
-    color: var(--grayish-blue);
+    color: var(--very-dark-blue);
     margin-top: 50px;
 }
 
@@ -49,6 +49,14 @@ top wrapper
     font-size: 28px;
     font-weight: 700;
     color: var(--very-dark-blue);
+    margin-bottom: 20px;
+}
+
+.top-copy {
+    font-size: 10;
+    font-weight: 400;
+    color: var(--grayish-blue);
+    width: 530px;
 }
 
 
